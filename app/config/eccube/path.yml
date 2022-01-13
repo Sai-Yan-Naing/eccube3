@@ -1,0 +1,55 @@
+# duplicated
+root: /html/ # root_urlpath
+admin_dir: test_strv_dir/ # admin_route
+tpl: /html/user_data/packages/default/ # front_urlpath
+admin_tpl: /html/user_data/packages/admin/ # admin_urlpath
+image_path: /html/upload/save_image/ # image_save_urlpath
+
+# base valiables
+root_dir: test_strv_rootpath
+root_urlpath: /html
+template_code: default
+
+# routing
+admin_route: test_strv_dir
+user_data_route: user_data
+
+# public directory
+public_path: /html
+public_path_realdir: test_strv_rootpath/html
+
+# realdir::image
+image_save_realdir: test_strv_rootpath/html/upload/save_image
+image_temp_realdir: test_strv_rootpath/html/upload/temp_image
+
+# realdir::user_data
+user_data_realdir: test_strv_rootpath/html/user_data
+
+# realdir::block
+block_default_realdir: test_strv_rootpath/src/Eccube/Resource/template/default/Block
+block_realdir: test_strv_rootpath/app/template/default/Block
+
+# realdir::template
+template_default_realdir: test_strv_rootpath/src/Eccube/Resource/template/default
+template_default_html_realdir: test_strv_rootpath/html/template/default
+template_admin_realdir: test_strv_rootpath/src/Eccube/Resource/template/admin
+template_admin_html_realdir: test_strv_rootpath/html/template/admin
+template_realdir: test_strv_rootpath/app/template/default
+template_html_realdir: test_strv_rootpath/html/template/default
+template_temp_realdir: test_strv_rootpath/app/cache/eccube/template
+
+# realdir::csv
+csv_temp_realdir: test_strv_rootpath/app/cache/eccube/csv
+
+# realdir:plugin
+plugin_realdir: test_strv_rootpath/app/Plugin
+plugin_temp_realdir: test_strv_rootpath/app/cache/plugin
+plugin_html_realdir: test_strv_rootpath/html/plugin
+
+# urlpath
+admin_urlpath: /html/template/admin
+front_urlpath: /html/template/default
+image_save_urlpath: /html/upload/save_image
+image_temp_urlpath: /html/upload/temp_image
+user_data_urlpath: /html/user_data
+plugin_urlpath: /html/plugin

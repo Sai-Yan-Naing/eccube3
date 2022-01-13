@@ -1,0 +1,9 @@
+database:
+    driver: 'pdo_mysql'
+    host: 'localhost'
+    dbname: 'test_strv_dbname'
+    port: '3310'
+    user: 'test_strv_dbuser'
+    password : 'welcome1233!'
+    charset: utf8
+    defaultTableOptions: { collate: utf8_general_ci }
